@@ -1,3 +1,4 @@
+import BinaryControls from "./Components/BinaryControls/BinaryControls";
 import StartGame from "./Components/StartGame/StartGame";
 import Title from "./Components/Title/Title";
 
@@ -6,6 +7,7 @@ function App() {
     <>
       <Title />
       <StartGame />
+      <BinaryControls />
     </>
   );
 }

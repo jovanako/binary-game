@@ -18,3 +18,15 @@ body {
   height: 200px;
   font-size: 200%;
 }
+
+button {
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  background-color: var(--text-color);
+  color: var(--bg-color);
+  border: none;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}

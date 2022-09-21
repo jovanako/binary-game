@@ -1,6 +1,6 @@
 :root {
-  --bg-color: #04480d;
-  --text-color: #daf7a6;
+  --bg-color: #c2d3dd;
+  --text-color: #08526a;
 }
 
 #game {
@@ -17,16 +17,4 @@
 
 #random-number {
   margin: 5px;
-}
-
-#start-button {
-  font-size: 20px;
-  font-family: "Ubuntu", sans-serif;
-  font-weight: bold;
-  background-color: var(--text-color);
-  color: var(--bg-color);
-  border: none;
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
 }
