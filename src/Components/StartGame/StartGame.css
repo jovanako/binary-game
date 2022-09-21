@@ -3,13 +3,6 @@
   --text-color: #08526a;
 }
 
-#game {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 70px;
-}
-
 #start-game {
   width: 20%;
   text-align: center;
