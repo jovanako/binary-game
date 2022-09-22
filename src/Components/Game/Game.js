@@ -14,8 +14,19 @@ export default function Game() {
     <>
       <div id="game">
         <div id="start-game">
-          <p id="random-number">{start}</p>
-          <button id="start-button" onClick={() => setStart(getRandomNumber())}>
+          <p
+            id="random-number"
+            className={computedNumber === start ? "bold" : ""}
+          >
+            {start}
+          </p>
+          <button
+            id="start-button"
+            onClick={() => {
+              setStart(getRandomNumber());
+              setComputedNumber(0);
+            }}
+          >
             Start
           </button>
         </div>
@@ -24,13 +35,11 @@ export default function Game() {
         computedNumber={computedNumber}
         setComputedNumber={setComputedNumber}
       />
-      <div id="computed-number">
-        <p>{computedNumber}</p>
-        <MinusPlus
-          computedNumber={computedNumber}
-          setComputedNumber={setComputedNumber}
-        />
-      </div>
+      <MinusPlus
+        start={start}
+        computedNumber={computedNumber}
+        setComputedNumber={setComputedNumber}
+      />
     </>
   );
 }
