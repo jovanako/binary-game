@@ -18,4 +18,8 @@
   #minus-plus-buttons {
     margin-top: -20px;
   }
+
+  .minusPlus {
+    margin: 2px;
+  }
 }
