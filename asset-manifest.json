@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/binary-game/static/css/main.f3245482.css",
-    "main.js": "/binary-game/static/js/main.11b610f7.js",
+    "main.css": "/binary-game/static/css/main.95897ff0.css",
+    "main.js": "/binary-game/static/js/main.d7c2733b.js",
     "static/js/787.029dcf4d.chunk.js": "/binary-game/static/js/787.029dcf4d.chunk.js",
     "index.html": "/binary-game/index.html",
-    "main.f3245482.css.map": "/binary-game/static/css/main.f3245482.css.map",
-    "main.11b610f7.js.map": "/binary-game/static/js/main.11b610f7.js.map",
+    "main.95897ff0.css.map": "/binary-game/static/css/main.95897ff0.css.map",
+    "main.d7c2733b.js.map": "/binary-game/static/js/main.d7c2733b.js.map",
     "787.029dcf4d.chunk.js.map": "/binary-game/static/js/787.029dcf4d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3245482.css",
-    "static/js/main.11b610f7.js"
+    "static/css/main.95897ff0.css",
+    "static/js/main.d7c2733b.js"
   ]
 }
