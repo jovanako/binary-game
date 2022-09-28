@@ -3,11 +3,17 @@ import "./MinusPlus.css";
 export default function MinusPlus(props) {
   const { setComputedNumber, computedNumber, start } = props;
   const add = function (num) {
-    return num + 1;
+    if (num < 255) {
+      return num + 1;
+    }
+    return 255;
   };
 
   const subtract = function (num) {
-    return num - 1;
+    if (num > 0) {
+      return num - 1;
+    }
+    return 0;
   };
 
   return (
