@@ -9,3 +9,13 @@
 .minusPlus {
   margin: 10px;
 }
+
+@media (orientation: portrait) {
+  #computed-number {
+    font-size: 50px;
+  }
+
+  #minus-plus-buttons {
+    margin-top: -20px;
+  }
+}

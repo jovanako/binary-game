@@ -2,3 +2,17 @@
   text-align: center;
   margin: 10px;
 }
+
+@media (orientation: portrait) {
+  #game {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #binary-control-item {
+    font-size: 50px;
+    margin: 0;
+    width: 45px;
+  }
+}

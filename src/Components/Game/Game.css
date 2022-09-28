@@ -4,10 +4,22 @@
 }
 
 #start-game {
-  width: 20%;
+  width: 80%;
   text-align: center;
 }
 
 #random-number {
   margin: 5px;
+}
+
+@media (orientation: portrait) {
+  #random-number {
+    font-size: 50px;
+    width: 100px;
+    margin: 0 auto -30px auto;
+  }
+
+  #start-button {
+    font-size: 12px;
+  }
 }
